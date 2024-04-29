@@ -14,9 +14,6 @@ public class ProgramaPrincipal {
         fulano.nascimento = LocalDate.of(1990, 10, 13);
         fulano.salario = new BigDecimal("1000.99");
 
-       System.out.println("Nome.....: " + fulano.nome);
-       System.out.println("Endereco.....: " + fulano.endereco);
-       System.out.println("Nascimento.....: " + fulano.nascimento);
-       System.out.println("Salario.....: " + fulano.salario);
+       fulano.apresentarse();
     }
 }
