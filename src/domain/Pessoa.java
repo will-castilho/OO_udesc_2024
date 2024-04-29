@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Pessoa {
-    String nome;
-    String endereco;
-    LocalDate nascimento;
-    BigDecimal salario;
+    public String nome;
+    public String endereco;
+    public LocalDate nascimento;
+    public BigDecimal salario;
 
 }
