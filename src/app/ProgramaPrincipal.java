@@ -13,7 +13,15 @@ public class ProgramaPrincipal {
         fulano.setEndereco("Rua dos programadores, 42");
         fulano.setNascimento(LocalDate.of(1990, 10, 13));
         fulano.setSalario(new BigDecimal("1000.99"));
+        fulano.apresentarse();
 
-       fulano.apresentarse();
+        System.out.println();
+
+        Pessoa Beltrano = new Pessoa("Beltrano da Silva",
+                "Rua dos Programadores, 66",
+                LocalDate.of(2000, 2, 15),
+        new BigDecimal("1234.56")
+        );
+        Beltrano.apresentarse();
     }
 }
