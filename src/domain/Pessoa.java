@@ -52,4 +52,18 @@ public class Pessoa {
     public void setSalario(BigDecimal salario) {
         this.salario = salario;
     }
+
+    public Pessoa(String endereco) {
+        this.endereco = endereco;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "endereco='" + endereco + '\'' +
+                ", nascimento=" + nascimento +
+                ", salario=" + salario +
+                ", nome='" + nome + '\'' +
+                '}';
+    }
 }
